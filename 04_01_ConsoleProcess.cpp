@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
   int i;
   _cputs("I am created.");
-  _cputs("\nMy name is: ");
+  _cputs("\nMy name is BOSS: ");
   _cputs(argv[0]);
   for (i = 1; i < argc; ++i)
     _cprintf ("\n My %d parameter =  %s", i, argv[i]);
